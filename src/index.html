@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>todu</title>
+    <link rel="stylesheet" href="Css/base.css">
+</head>
+<body>
+
+
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+
+
+<div class="contanier">
+    <h1>我的Todo</h1>
+    <form class="add-task">
+        <input type="text" placeholder="e.g. 输入你要代办的事情">
+        <button type="submit">提交</button>
+    </form>
+    <ul class="task-list">
+        <li class="task-item">
+            <input type="checkbox" class="complete">
+            <span class="task-content">今晚回去打豆豆</span>
+            <div class="fr">
+                <span class="action delete">删除</span>
+                <span class="action detail">详细</span>
+            </div>
+        </li>
+
+    </ul>
+  <!--  <div class="task-detail-mask"></div>
+    <div class="task-detail">
+        <form>
+            <h2 class="content">这是标题</h2>
+            <div class="input-item">
+                <textarea></textarea>
+            </div>
+            <div class="remind input-item">
+                <label>提醒时间</label>
+                <input class="datetime" type="date" value="">
+            </div>
+            <div class="input-item"><button>更新</button></div>
+            <div class="colse">X</div>
+        </form>
+    </div>-->
+</div>
+
+<!--自定义弹框-->
+<!--<div class="alertA" style="display:block;color: rgb(68, 68, 68); width: 300px; height: auto; padding: 15px 10px; position: fixed; border-radius: 3px; box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px; left: 543px; top: 200px; background: rgb(255, 255, 255);">
+    <div class="pop-title" style="padding: 5px 10px; font-weight: 900; font-size: 20px; text-align: center;">确定删除?</div>
+    <div class="pop-content" style="padding: 5px 10px; text-align: center;">
+        <div>
+            <button style="margin-right: 5px;" class="primary confirm">确定</button>
+            <button class="cancel">取消</button>
+        </div>
+    </div>
+</div>-->
+
+
+<script src="js/jquery3.2.1.js"></script>
+<script src="js/store.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
